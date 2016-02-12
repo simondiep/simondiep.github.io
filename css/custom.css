@@ -66,6 +66,12 @@ aside {
     padding: 50px 0;
 }
 
+.dropdown-menu {
+    background-color: #e7e7e7;
+    min-width: 120px;
+    width: 100%; 
+}
+
 .no-padding {
     padding: 0;
 }
