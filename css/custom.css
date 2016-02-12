@@ -68,8 +68,13 @@ aside {
 
 .dropdown-menu {
     background-color: #e7e7e7;
-    min-width: 120px;
+    border: none;
+    min-width: 110px;
     width: 100%; 
+}
+
+.dropdown-menu>li>a {
+    padding: 10px 20px;
 }
 
 .no-padding {
@@ -77,7 +82,7 @@ aside {
 }
 
 .navbar-default {
-    border-color: rgba(34,34,34,.05);
+    border: none;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
